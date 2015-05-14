@@ -1,6 +1,6 @@
 # App
 
-Criar um aplicativo que lista as séries de televisão mais populares atualmente, use a API do [Trakt](https://trakt.tv) para isso (você deve se registrar no site para ter acesso à API).
+Criar um aplicativo que lista as séries de televisão mais populares atualmente, usando a API do [Trakt](https://trakt.tv) para isso (você deve se registrar no site para ter acesso à API).
 
 Use o mockup abaixo como exemplo:
 
@@ -17,11 +17,11 @@ Use o mockup abaixo como exemplo:
 
 * É necessário possuir pelo menos uma classe em Swift.
 
-* As telas devem ser feitas com autolayout e não podem apresentar logs de erro no console.
+* As telas devem ser feitas com Auto Layout e não podem apresentar logs de erro no console.
 
 * A prova foi pensada para ser feita em no máximo 2 horas, não irá adicionar para a avaliação, o desenvolvimento de funcionalidades adicionais.
 
-* Provavelmente faremos perguntas sobre o seu código, não saia colando tudo do StackOverflow :)
+* Provavelmente faremos perguntas sobre o seu código, não saia colando tudo do Stack Overflow :)
 
 
 # Extras
