@@ -28,6 +28,8 @@ Use o mockup abaixo como exemplo:
 
 * Tratamento de cenários de erro (falta de conexão com a internet, indisponibilidade do servidor, ect)
 
+* Aplicativo inteiramente desenvolvido em Swift
+
 * Pull to refresh
 
 * App universal
