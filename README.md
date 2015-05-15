@@ -13,7 +13,7 @@ Use o mockup abaixo como exemplo:
 
 * O projeto deve suportar iOS 8 e será testado na versão mais recente do iOS.
 
-* É permitido o uso de gerenciadores de dependências, assim como bibliotecas externas.
+* É permitido o uso de bibliotecas externas, assim como gerenciadores de dependências.
 
 * É necessário possuir pelo menos uma classe em Swift.
 
