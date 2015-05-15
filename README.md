@@ -42,4 +42,4 @@ Você tem duas opções:
 
 1) Você pode fazer um _pull request_ no nosso [repositório __público__](https://github.com/Movile/recrutamento-ios). Note que seu *fork* ficará público para qualquer pessoa ver.
 
-2) Caso você prefira um pouco de privacidade, crie um repositório com o nome **recrutamento-ios** na sua conta do GitHub ou Bitbucket, inclua o usuário recrutamento-ios-movile como colaborador (pode ser acesso só para leitura) e mande um email para recrutamento.ios@movile.com avisando.
+2) Caso você prefira um pouco de privacidade, crie um repositório com o nome **recrutamento-ios** na sua conta do GitHub ou Bitbucket, inclua o usuário recruitment-ios-movile como colaborador (pode ser acesso só para leitura) e mande um email para recruitment.ios@movile.com avisando.
