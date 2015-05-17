@@ -26,7 +26,7 @@ Use o mockup abaixo como exemplo:
 
 # Extras
 
-* Tratamento de cenários de erro (falta de conexão com a internet, indisponibilidade do servidor, ect)
+* Tratamento de cenários de erro (falta de conexão com a internet, indisponibilidade do servidor, etc)
 
 * Aplicativo inteiramente desenvolvido em Swift
 
