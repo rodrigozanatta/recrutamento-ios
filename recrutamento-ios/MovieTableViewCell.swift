@@ -15,6 +15,7 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var rightImage: UIImageView!
     @IBOutlet weak var leftLabel: UILabel!
     @IBOutlet weak var centerLabel: UILabel!
-    @IBOutlet weak var rightLabel: UIView!
+    @IBOutlet weak var rightLabel: UILabel!
+
 
 }

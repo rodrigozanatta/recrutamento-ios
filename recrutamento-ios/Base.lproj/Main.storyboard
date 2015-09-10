@@ -9,7 +9,7 @@
         <!--Shows-->
         <scene sceneID="ajN-9q-wUF">
             <objects>
-                <tableViewController id="VyK-W3-k3q" sceneMemberID="viewController">
+                <tableViewController id="VyK-W3-k3q" customClass="MovieTableViewController" customModule="recrutamento_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="190" sectionHeaderHeight="22" sectionFooterHeight="22" id="Huc-E1-TTc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,7 @@
                                     <outlet property="leftImage" destination="YQ4-F9-Get" id="DXd-T9-LRP"/>
                                     <outlet property="leftLabel" destination="IcV-3g-n04" id="nA9-nr-EZd"/>
                                     <outlet property="rightImage" destination="3Q4-26-Gku" id="ZIl-oR-vgq"/>
-                                    <outlet property="rightLabel" destination="iNT-HG-4Vy" id="b7S-eN-44C"/>
+                                    <outlet property="rightLabel" destination="DHM-r7-SMl" id="BH8-Gw-nJ5"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
