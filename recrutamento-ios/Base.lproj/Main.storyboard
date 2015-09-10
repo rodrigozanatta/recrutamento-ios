@@ -10,7 +10,7 @@
         <scene sceneID="ajN-9q-wUF">
             <objects>
                 <tableViewController id="VyK-W3-k3q" customClass="MovieTableViewController" customModule="recrutamento_ios" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="190" sectionHeaderHeight="22" sectionFooterHeight="22" id="Huc-E1-TTc">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="190" sectionHeaderHeight="22" sectionFooterHeight="22" id="Huc-E1-TTc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -20,29 +20,29 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="seN-x5-gsE" id="iNT-HG-4Vy">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YQ4-F9-Get" userLabel="Left Image">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YQ4-F9-Get" userLabel="Left Image">
                                             <rect key="frame" x="8" y="8" width="193" height="137"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3co-L1-yNZ" userLabel="Center Image">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3co-L1-yNZ" userLabel="Center Image">
                                             <rect key="frame" x="203" y="8" width="194" height="137"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Q4-26-Gku" userLabel="Right Image">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Q4-26-Gku" userLabel="Right Image">
                                             <rect key="frame" x="399" y="8" width="193" height="137"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcV-3g-n04">
-                                            <rect key="frame" x="8" y="160" width="193" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IcV-3g-n04">
+                                            <rect key="frame" x="8" y="163" width="193" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Center Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1r-or-6ng">
-                                            <rect key="frame" x="203" y="160" width="194" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Center Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="W1r-or-6ng">
+                                            <rect key="frame" x="203" y="163" width="194" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Right Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHM-r7-SMl">
-                                            <rect key="frame" x="399" y="160" width="193" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Right Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DHM-r7-SMl">
+                                            <rect key="frame" x="399" y="163" width="193" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -59,12 +59,12 @@
                                         <constraint firstItem="IcV-3g-n04" firstAttribute="leading" secondItem="iNT-HG-4Vy" secondAttribute="leadingMargin" id="NXb-tR-Z9q"/>
                                         <constraint firstItem="YQ4-F9-Get" firstAttribute="width" secondItem="3co-L1-yNZ" secondAttribute="width" id="Q5E-v0-t0Q"/>
                                         <constraint firstItem="YQ4-F9-Get" firstAttribute="height" secondItem="3co-L1-yNZ" secondAttribute="height" id="RNZ-k0-Hkk"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="W1r-or-6ng" secondAttribute="bottom" id="SKp-XN-c9z"/>
+                                        <constraint firstItem="W1r-or-6ng" firstAttribute="bottom" secondItem="iNT-HG-4Vy" secondAttribute="bottomMargin" constant="2" id="SKp-XN-c9z"/>
                                         <constraint firstItem="3Q4-26-Gku" firstAttribute="bottom" secondItem="iNT-HG-4Vy" secondAttribute="bottomMargin" multiplier="0.8" id="TVV-YJ-guk"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="DHM-r7-SMl" secondAttribute="bottom" id="Zu7-qP-YBC"/>
+                                        <constraint firstItem="DHM-r7-SMl" firstAttribute="bottom" secondItem="iNT-HG-4Vy" secondAttribute="bottomMargin" constant="2" id="Zu7-qP-YBC"/>
                                         <constraint firstItem="W1r-or-6ng" firstAttribute="width" secondItem="3co-L1-yNZ" secondAttribute="width" id="bX5-Sw-qDr"/>
                                         <constraint firstItem="3co-L1-yNZ" firstAttribute="bottom" secondItem="iNT-HG-4Vy" secondAttribute="bottomMargin" multiplier="0.8" id="cJ4-RB-fTz"/>
-                                        <constraint firstItem="IcV-3g-n04" firstAttribute="bottom" secondItem="iNT-HG-4Vy" secondAttribute="bottomMargin" id="dif-ja-XJe"/>
+                                        <constraint firstItem="IcV-3g-n04" firstAttribute="bottom" secondItem="iNT-HG-4Vy" secondAttribute="bottomMargin" constant="2" id="dif-ja-XJe"/>
                                         <constraint firstItem="YQ4-F9-Get" firstAttribute="top" secondItem="iNT-HG-4Vy" secondAttribute="topMargin" id="epz-TL-B0v"/>
                                         <constraint firstItem="YQ4-F9-Get" firstAttribute="leading" secondItem="iNT-HG-4Vy" secondAttribute="leadingMargin" id="esd-Qy-KU0"/>
                                         <constraint firstItem="3Q4-26-Gku" firstAttribute="top" secondItem="iNT-HG-4Vy" secondAttribute="topMargin" id="g9z-L8-UnV"/>
@@ -91,6 +91,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Shows" id="qId-Zx-Rwe" userLabel="Shows"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="79H-IK-kaP">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="refreshTable:" destination="VyK-W3-k3q" eventType="valueChanged" id="62t-ue-9ex"/>
+                        </connections>
+                    </refreshControl>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpo-jh-9K2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

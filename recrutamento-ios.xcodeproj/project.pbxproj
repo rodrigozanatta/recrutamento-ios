@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732B0ADD1BA21BE400C875CE /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B0ADC1BA21BE400C875CE /* IJReachability.swift */; };
 		73D4D4501BA1FE7400A93897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D44F1BA1FE7400A93897 /* AppDelegate.swift */; };
 		73D4D4521BA1FE7400A93897 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D4511BA1FE7400A93897 /* MovieTableViewController.swift */; };
 		73D4D4551BA1FE7400A93897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D4D4531BA1FE7400A93897 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732B0ADC1BA21BE400C875CE /* IJReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJReachability.swift; sourceTree = "<group>"; };
 		73D4D44A1BA1FE7400A93897 /* recrutamento-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recrutamento-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D4D44E1BA1FE7400A93897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D4D44F1BA1FE7400A93897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				73D4D44F1BA1FE7400A93897 /* AppDelegate.swift */,
 				73D4D4511BA1FE7400A93897 /* MovieTableViewController.swift */,
 				73D4D46F1BA2032500A93897 /* MovieTableViewCell.swift */,
+				732B0ADC1BA21BE400C875CE /* IJReachability.swift */,
 				73D4D4531BA1FE7400A93897 /* Main.storyboard */,
 				73D4D4561BA1FE7400A93897 /* Images.xcassets */,
 				73D4D4581BA1FE7400A93897 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				73D4D4521BA1FE7400A93897 /* MovieTableViewController.swift in Sources */,
 				73D4D4501BA1FE7400A93897 /* AppDelegate.swift in Sources */,
 				73D4D4701BA2032500A93897 /* MovieTableViewCell.swift in Sources */,
+				732B0ADD1BA21BE400C875CE /* IJReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
