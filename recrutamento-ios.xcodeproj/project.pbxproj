@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		73D4D4501BA1FE7400A93897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D44F1BA1FE7400A93897 /* AppDelegate.swift */; };
-		73D4D4521BA1FE7400A93897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D4511BA1FE7400A93897 /* ViewController.swift */; };
+		73D4D4521BA1FE7400A93897 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D4511BA1FE7400A93897 /* MovieTableViewController.swift */; };
 		73D4D4551BA1FE7400A93897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D4D4531BA1FE7400A93897 /* Main.storyboard */; };
 		73D4D4571BA1FE7400A93897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D4D4561BA1FE7400A93897 /* Images.xcassets */; };
 		73D4D45A1BA1FE7400A93897 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73D4D4581BA1FE7400A93897 /* LaunchScreen.xib */; };
 		73D4D4661BA1FE7400A93897 /* recrutamento_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D4651BA1FE7400A93897 /* recrutamento_iosTests.swift */; };
+		73D4D4701BA2032500A93897 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4D46F1BA2032500A93897 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		73D4D44A1BA1FE7400A93897 /* recrutamento-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recrutamento-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D4D44E1BA1FE7400A93897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D4D44F1BA1FE7400A93897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73D4D4511BA1FE7400A93897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73D4D4511BA1FE7400A93897 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		73D4D4541BA1FE7400A93897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73D4D4561BA1FE7400A93897 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		73D4D4591BA1FE7400A93897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		73D4D45F1BA1FE7400A93897 /* recrutamento-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recrutamento-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D4D4641BA1FE7400A93897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D4D4651BA1FE7400A93897 /* recrutamento_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recrutamento_iosTests.swift; sourceTree = "<group>"; };
+		73D4D46F1BA2032500A93897 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				73D4D44F1BA1FE7400A93897 /* AppDelegate.swift */,
-				73D4D4511BA1FE7400A93897 /* ViewController.swift */,
+				73D4D4511BA1FE7400A93897 /* MovieTableViewController.swift */,
+				73D4D46F1BA2032500A93897 /* MovieTableViewCell.swift */,
 				73D4D4531BA1FE7400A93897 /* Main.storyboard */,
 				73D4D4561BA1FE7400A93897 /* Images.xcassets */,
 				73D4D4581BA1FE7400A93897 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D4D4521BA1FE7400A93897 /* ViewController.swift in Sources */,
+				73D4D4521BA1FE7400A93897 /* MovieTableViewController.swift in Sources */,
 				73D4D4501BA1FE7400A93897 /* AppDelegate.swift in Sources */,
+				73D4D4701BA2032500A93897 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				73D4D46B1BA1FE7400A93897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D4D46C1BA1FE7400A93897 /* Build configuration list for PBXNativeTarget "recrutamento-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				73D4D46E1BA1FE7400A93897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
